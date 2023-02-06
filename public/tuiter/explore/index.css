@@ -1,0 +1,99 @@
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.wd-border {
+    border: 1px solid rgb(47, 51, 54);
+    padding: 7px;
+}
+
+.wd-search-bar {
+    text-indent: 20px;
+    padding: 5px;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(61, 59, 59);
+    border-radius: 30px;
+}
+
+#search-icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-right: 5px;
+}
+
+.wd-settings {
+    color: rgb(29,161,242);
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.wd-nav-bar {
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style-type: none;
+}
+
+.wd-nav-tab {
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-tab-selected {
+    color:rgb(29,161,242);
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+.wd-tab-unselected {
+    padding-bottom: 10px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-nav-bar > li {
+    display: inline-block;
+}
+
+.wd-tuit-post {
+    font-stretch: ultra-condensed;
+    width: 100%;
+    overflow: auto;
+}
+
+.wd-tuit-post > img {
+    margin-right: 16px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+    border-radius: 20px;
+}
+
+.wd-tuit-topic, .wd-tuit-count {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuit-author {
+    font-size: 13px;
+    color: white;
+}
+
+.wd-tuit-title {
+    font-size: 15px;
+    color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color:white;
+    margin-left: 16px;
+}
+
+hr {
+    background-color: rgb(47, 51, 54);
+    height: 1px;
+    border: none;
+}

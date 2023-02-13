@@ -19,6 +19,14 @@
     position: absolute;
 }
 
+.wd-border{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+
+    border-color: lightgrey;
+}
+
 .wd-input-icons {
     width: 100%;
     margin-bottom: 3px;
@@ -33,6 +41,7 @@
     width: 100%;
     padding: 10px;
     text-indent: 30px;
+    background-color: #E6E6E6;
 }
 
 .wd-search-icon {
@@ -44,7 +53,6 @@
 .wd-setting-icon{
     margin: 12px;
     font-size: x-large;
-    color: dodgerblue;
 }
 
 .wd-search-bar-width {
@@ -114,6 +122,16 @@
 .wd-mr{
     margin-right: 25px;
     margin-left: 4px;
+}
+
+.wd-text {
+    font-size: 20px;
+    font-stretch: ultra-condensed;
+}
+
+.wd-follow {
+    color: gray;
+    border-color: #4f5050;
 }
 /*a {*/
 /*    text-decoration: none;*/

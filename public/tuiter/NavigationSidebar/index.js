@@ -5,7 +5,7 @@ const NavigationSidebar = (active) => {
         <a href="../HomeScreen/index.html" class="list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}">
             <i class="fa fa-home"></i><span
                 class="d-none d-xl-inline-block wd-padding-left-side">Home</span></a>
-        <a href="../explore/index.html" class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}" aria-current="true"><i
+        <a href="../explore-past/index.html" class="list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}" aria-current="true"><i
                 class="fa fa-solid fa-hashtag"></i><span
                 class="d-none d-xl-inline-block wd-padding-left-side">Explore</span></a>
         <a href="" class="list-group-item list-group-item-action"><i

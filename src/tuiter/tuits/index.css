@@ -1,0 +1,247 @@
+.wd-margin-bottom-null{
+    margin-bottom: 0%;
+}
+
+.wd-margin-right-null{
+    margin-right: 0;
+}
+
+.wd-padding-null{
+    padding: 0;
+}
+
+.wd-padding-left{
+    padding-left: 3px;
+}
+
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.wd-input-field {
+    width: 100%;
+    padding: 10px;
+    text-indent: 35px;
+    background-color: white;
+}
+
+.wd-search-icon {
+    margin: 15px;
+    font-size: 20px;
+    color: #4f5050;
+}
+
+.wd-setting-icon{
+    margin: 12px;
+    font-size: x-large;
+    color: dodgerblue;
+}
+
+.wd-search-bar-width {
+    width:90%;
+}
+
+.wd-more-size{
+    font-size: large;
+}
+
+.wd-image-icon{
+    height: 80px;
+    width: 80px;
+    float: right;
+    border-radius: 25px;
+}
+
+.wd-image-icon2{
+    height: 37px;
+    width: 37px;
+    border-radius: 20px;
+}
+
+.wd-container {
+    position: relative;
+}
+
+.wd-bottom-left {
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    margin: 0px;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.wd-font-size-side{
+    font-size: 14px;;
+}
+
+.wd-padding-left-side{
+    padding-left: 10px;
+}
+
+.wd-image{
+    width:100%;
+    margin-left:0px;
+}
+
+.wd-margin-mid{
+    margin-left: 13px;
+}
+
+.wd-border-link{
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(30,144,255);
+}
+
+.wd-mr{
+    margin-right: 25px;
+    margin-left: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wd-border {
+    border: 1px solid rgb(241, 241, 241);
+    max-width: 900px;
+    padding: 12px 16px;
+}
+
+.wd-title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-user-handle {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-author-avatar > img {
+    margin-right: 12px;
+    float: left;
+    height: 48px;
+    width: 48px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wd-tuit-body {
+    overflow: hidden;
+}
+
+.wd-author-name {
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+}
+
+.wd-check-mark {
+    float: left;
+    margin-right: 5px;
+    color: dodgerblue;
+}
+
+.wd-three-dots {
+    margin-left: 250px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-author-handle {
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuit-content {
+    margin-top: 12px;
+    width: 506px;
+    margin-right: 16px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.wd-tuit-img-description {
+    padding: 12px;
+    margin-top: 0;
+    width: 504px;
+    border-width:1px;
+    border-style:solid;
+    border-radius: 0 0 10px 10px;
+    border-color:rgb(226, 226, 226);
+    border-top-style: none;
+}
+
+.wd-tuit-img {
+    margin-bottom: 0;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(226, 226, 226);
+    height: 264px;
+    width: 504px;
+}
+
+.wd-tuit-image-full-border {
+    border-radius: 15px;
+}
+
+.wd-tuit-image-top-border {
+    border-radius: 15px 15px 0 0;
+}
+
+.wd-tuit-img-title {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.wd-tuit-img-text {
+    margin-top: 10px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-reaction-bar {
+    width: 530px;
+    margin-left: 28px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.wd-reaction-tab {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    margin-top: 12px;
+    padding-left: 7px;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+.wd-reaction-tab > i {
+    margin-right: 12px;
+}
+
+.wd-reaction-tab-selected {
+    color: red;
+}
+
+.wd-reaction-tab-unselected {
+    padding-bottom: 10px;
+    color: rgb(110, 118, 125);
+}

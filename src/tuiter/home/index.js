@@ -1,17 +1,14 @@
 import React from "react";
-import posts from './posts.json';
-import PostItem from "./post-item";
+import TuitsList from "../tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
 
-const Home = () => {
-    return (
-    <div>
-    {
-        posts.map(post =>
-            <PostItem key={post._id} post={post}/>
-        )
-    }
-    </div>
+const HomeComponent = () => {
+    return(
+        <>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
+        </>
     );
-}
-
-export default Home;
+};
+export default HomeComponent;

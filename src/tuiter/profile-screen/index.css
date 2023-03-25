@@ -1,0 +1,15 @@
+.wd-profilePicture {
+    height: 68px;
+    width: 63px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 34px;
+    border: black;
+    border-radius: 62px;
+    border-style: solid;
+}
+
+.wd-bannerPicture {
+    height: 150px;
+    width: 100%;
+}

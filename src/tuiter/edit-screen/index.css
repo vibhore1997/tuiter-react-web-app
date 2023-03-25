@@ -1,0 +1,16 @@
+.wd-input{
+    background-color: black;
+    border-style: none;
+}
+
+.wd-div{
+    border-style: solid;
+    padding: 3px;
+    border-radius: 8px;
+    border-color: #808080;
+    margin-bottom: 8px;
+}
+
+.wd-button-save{
+    border-radius: 20px;
+}

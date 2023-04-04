@@ -1,9 +1,8 @@
 import React from "react";
 import "./index.css";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faHeart} from "@fortawesome/free-solid-svg-icons";
 import {useDispatch} from "react-redux";
-import {clickLike} from "./tuits-reducer";
+import {updateTuitThunk}
+    from "../../services/tuits-thunks";
 
 const TuitStats = ({post}) => {
     const dispatch = useDispatch();
@@ -22,9 +21,22 @@ const TuitStats = ({post}) => {
                 </li>
                 <li>
                     <a className={`wd-reaction-tab ${post.liked === true ?'wd-reaction-tab-selected':''}`} href="#"
-                    onClick={() => dispatch(clickLike(post))}>
-                        <FontAwesomeIcon icon={faHeart} />
+                    onClick={() => dispatch(updateTuitThunk({
+                        ...post,
+                        likes: post.likes + 1
+                    }))}>
+                        <i className="bi bi-heart-fill me-2 text-danger"></i>
                         <span className="ms-3 text-muted">{post.likes}</span>
+                    </a>
+                </li>
+                <li>
+                    <a className="wd-reaction-tab wd-reaction-tab-unselected" href="#"
+                       onClick={() => dispatch(updateTuitThunk({
+                           ...post,
+                           dislikes: post.dislikes - 1
+                       }))}>
+                        <i className="bi bi-hand-thumbs-down"></i>
+                        <span className="text-muted">{post.dislikes}</span>
                     </a>
                 </li>
                 <li>
